@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 .sass-cache/
 .jekyll-metadata
+=======
+node_modules
+src
+>>>>>>> master
