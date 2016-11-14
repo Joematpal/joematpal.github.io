@@ -27095,7 +27095,7 @@
 	            null,
 	            _react2.default.createElement(
 	              _reactRouter.Link,
-	              { to: 'home' },
+	              { to: '/' },
 	              'Home'
 	            ),
 	            _react2.default.createElement(
