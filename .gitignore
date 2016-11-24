@@ -1,2 +1,5 @@
 node_modules
 src
+.firebaserc
+firebase.json
+database.rules.json
