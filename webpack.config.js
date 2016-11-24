@@ -3,7 +3,7 @@ module.exports= {
     './src/index.jsx'
   ,
   output: {
-    path:__dirname + "/public",
+    path:__dirname,
     filename:'app.js'
   },
   module: {
@@ -17,9 +17,17 @@ module.exports= {
         }
       }
       , {
-        test: /\.scss/
+        test: /\.scss$/
         , exclude: /node_modules/
         , loader: 'style-loader!css-loader!sass-loader'
+      }
+      , {
+        test: /\.(png|jpe?g)$/
+        , loader: 'file-loader?name=images/[name].[ext]'
+      }
+      , {
+        test: /\.woff$/
+        , loader: 'file-loader?name=fonts/[name].[ext]'
       }
     ]
   }
